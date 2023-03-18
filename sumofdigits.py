@@ -2,11 +2,12 @@
 
 n = int(input(" Enter any number : "))
 x =0
-while n >= 0:
+num = n
+while n > 0:
     x = x + n % 10
     n = n//10
 
 
-print("The sum of digits of ", n , "is", x)
+print("The sum of digits of ", num , "is", x)
 
 
